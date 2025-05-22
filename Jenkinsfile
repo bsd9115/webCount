@@ -4,7 +4,7 @@ node {
     }
 
     stage('Build image') {
-       dockerImage = docker.build("bsdev/webcount:v1.0")
+       dockerImage = docker.build("bsd9115/webcount:v1.0")
     }
 
     stage('Push image') {
