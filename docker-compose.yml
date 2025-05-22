@@ -1,6 +1,6 @@
 services:
   webserver:
-    image: bsd9115/webcount:1.0
+    image: bsd9115/webcount:v1.0
     ports:
      - "8899:8899"
     depends_on:
